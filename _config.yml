@@ -3,17 +3,17 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: Chienweichih's site
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: SSD Firmware engineer
 
 #
 # Flags below are optional
 #
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars3.githubusercontent.com/u/4618300
 
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
@@ -29,7 +29,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
+    url: https://github.com/Chienweichih/Chienweichih.github.io
 
 # Pagination
 paginate: 5
@@ -38,10 +38,10 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
-  facebook:
+  email: chienweichih@hotmail.com
+  facebook: chienweichih
   flickr:
-  github: AWEEKJ/kiko-now
+  github: Chienweichih
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -49,28 +49,35 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: jekyllrb
+  twitter:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2018 chienweichih
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: # <username>.disqus.com
+disqus: chienweichih
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-80308840-1
+
+# Deployment
+host: 0.0.0.0
+port: 5566
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://chienweichih.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Taipei
 
 #
 # !! You don't need to change any of the configuration flags below !!
