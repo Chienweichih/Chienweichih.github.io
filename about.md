@@ -1,18 +1,19 @@
 ---
 layout: page
-title: 簡偉智
+title: 簡偉智 - Bruce Chien
 permalink: /about/
 ---
-Bruce Chien
-
 ## Currently
 
-[廣明光電][qsitw] SSD部門 ([Techman][Techman]) 的小小 R&D。
+[Quanta Storage Inc.][qsitw] Consumer Electronics Firmware R&D Engineer.
 
 ## Employment
 
-`2016-` 
-__Quanta Storage Inc.__ SSD韌體工程師 
+`2016-2018` 
+__Quanta Storage Inc.__ [SSD][Techman] 韌體工程師
+
+`2018-` 
+__Quanta Storage Inc.__ 消費性電子 韌體工程師
 
 ## Education
 
@@ -24,14 +25,14 @@ __國立臺灣海洋大學__ 資訊工程學系學士
 
 ## Technical skills
 
-* Python
-* Java
-* C and C++
-* LaTeX
 * Git
+* C
+* Embedded System (ARM)
+* Flash Translation Layer in SSD
+* USB Type-C, Power Delivery
+* Python
+* Java, C#, MFC
 * Linux
-* HTML and CSS
-* JavaScript
 
 ## Master's thesis
 
