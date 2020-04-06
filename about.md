@@ -1,19 +1,19 @@
 ---
 layout: page
-title: 簡偉智 - Bruce Chien
+title: Bruce Chien
 permalink: /about/
 ---
 ## Currently
 
-[Quanta Storage Inc.][qsitw] Consumer Electronics Firmware R&D Engineer.
+SSD Firmware R&D Engineer.
 
 ## Employment
 
-`2018 - 2019` 
-__Quanta Storage Inc.__ 消費性電子 韌體工程師
+`2019 - `
+__ESEC__ SSD 韌體工程師
 
-`2016 - 2018` 
-__Quanta Storage Inc.__ [SSD][Techman] 韌體工程師
+`2016 - 2019` 
+__[Quanta Storage Inc.][qsitw]__ SSD 韌體工程師
 
 ## Education
 
@@ -25,10 +25,10 @@ __國立臺灣海洋大學__ 資訊工程學系 __學士__
 
 ## Technical skills
 
-* Git
+* SSD: FTL, TCG
+* Tool: Vim, Git
 * C
 * Embedded System (ARM)
-* Flash Translation Layer in SSD
 * USB Type-C, Power Delivery
 * Python
 * Java, C#, MFC
@@ -113,7 +113,6 @@ __二維條碼文件證書認證系統__
 {: .right}
 
 [qsitw]: http://www.qsitw.com/page/tw/index.html
-[Techman]: http://tm-ssd.com/
 [masters_thesis]: http://handle.ncl.edu.tw/11296/ndltd/10270759124789943046
 [Voting-CAP]: https://github.com/Chienweichih/Voting-CAP
 [PD_PARSER]: https://github.com/Chienweichih/CCGX_PD_Parser
