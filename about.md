@@ -5,12 +5,12 @@ permalink: /about/
 ---
 ## Currently
 
-SSD Firmware R&D Engineer.
+SSD Firmware Engineer
 
 ## Employment
 
-`2019 - `
-__ESEC__ SSD 韌體工程師
+`2019 -   `
+__[YEESTOR Microelectronics Co., Ltd][yeestor]__ SSD 韌體工程師
 
 `2016 - 2019` 
 __[Quanta Storage Inc.][qsitw]__ SSD 韌體工程師
@@ -28,10 +28,10 @@ __國立臺灣海洋大學__ 資訊工程學系 __學士__
 * SSD: FTL, TCG
 * Tool: Vim, Git
 * C
+* Cryptography
 * Embedded System (ARM)
 * USB Type-C, Power Delivery
-* Python
-* Java, C#, MFC
+* Python, Java, C#, MFC
 * Linux
 
 ## Master's thesis
@@ -112,6 +112,7 @@ __二維條碼文件證書認證系統__
 (這是一個結合 Java 實作後端程式及 Android 介面的一個 Project)
 {: .right}
 
+[yeestor]: http://www.yeestor.com/
 [qsitw]: http://www.qsitw.com/page/tw/index.html
 [masters_thesis]: http://handle.ncl.edu.tw/11296/ndltd/10270759124789943046
 [Voting-CAP]: https://github.com/Chienweichih/Voting-CAP
