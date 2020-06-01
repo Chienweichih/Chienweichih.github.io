@@ -11,7 +11,9 @@ share: true
 
 測試一下iframe在這個Jekyll網頁的效果，也順便紀錄一下最近疫情的狀況。
 
-<iframe src="https://calendar.google.com/calendar/embed?src=bb2uq236a1uebmeoqe6q0r6mts%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+(2020/06/01 update: 因為口罩禁令解除了，我把日曆固定在 2020/03)
+
+<iframe src="https://calendar.google.com/calendar/embed?src=bb2uq236a1uebmeoqe6q0r6mts%40group.calendar.google.com&ctz=Asia%2FTaipei&dates=20200301/20200601" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 [emask]: https://emask.taiwan.gov.tw/msk/index.jsp
 
