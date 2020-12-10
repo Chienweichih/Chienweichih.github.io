@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Chienweichih's site
+name: Chienweichih
 
 # Short bio or description (displayed in the header)
-description: Techniques | Tools | Life
+description: SSD Firmware Engineer
 
 #
 # Flags below are optional
@@ -44,7 +44,7 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: just type anything here for a working RSS icon
+  rss: enable
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
   twitter:
@@ -59,10 +59,6 @@ disqus: chienweichih
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-80308840-1
-
-# Deployment
-host: 0.0.0.0
-port: 5566
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
