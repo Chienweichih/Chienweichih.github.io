@@ -51,7 +51,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2020 chienweichih
+footer-text: © 2021 chienweichih
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -71,7 +71,7 @@ url: https://chienweichih.github.io
 baseurl:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Taipei
+timezone: Asia/Taipei
 
 #
 # !! You don't need to change any of the configuration flags below !!
