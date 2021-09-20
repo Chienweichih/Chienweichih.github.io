@@ -36,7 +36,10 @@ share: true
 在 [Practical Vim][practical_vim] 的 Chapter 16 介紹了 Index and Navigate 的工具，ctags
 
 使用前先在 Project 的最上層目錄執行:
-> `ctags -R`
+
+``` shell
+$ ctags -R
+```
 
 生成 tags 檔
 
@@ -49,7 +52,10 @@ share: true
 像 vimgrep 的功能
 
 使用前先在 Project 的最上層目錄執行:
-> `gtags`
+
+``` shell
+$ gtags
+```
 
 生成 GPATH、GRTAGS 和 GTAGS 檔
 
@@ -67,12 +73,18 @@ share: true
 
 安裝 Plugins 的方法，在 Vim 8 之後變得很簡單：  
 把 [dotfiles][dotfiles] clone 下來，接著用這個指令把其他 submodule 都下載下來：
-> `git submodule update --init --recursive`
+
+``` shell
+$ git submodule update --init --recursive
+```
 
 最後把 .vim 資料夾複製到家目錄，如果是用 Windows 的 GVim ，  
 就把 .vim 改名為 vimfiles  
 這樣就設定完成了，如果要確認 Vim 有沒有載入你設定的 Plugins，執行：
-> `:scriptname`
+
+``` vim
+:scriptname
+```
 
 就可以看到了
 

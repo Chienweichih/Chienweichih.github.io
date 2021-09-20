@@ -29,7 +29,9 @@ share: true
 ### 可以把文章設成 Sample Link
 在 YAML front matter (Markdown 最前面 `---` 的範圍裡面) 加上
 
-> `link: 'http://url-you-want-linked'`
+``` yaml
+link: 'http://url-you-want-linked'
+```
 
 就可以了
 
@@ -181,9 +183,9 @@ end
 
 An example of a Gist embed below.
 
-這可以放 Gist 在這，那就順便把我在用的 vimrc 貼上來吧
+這可以放 Gist 在這
 
-<script src="https://gist.github.com/Chienweichih/17f9dfdba73ea7a3ad84b726c2e0460b.js"></script>
+<script src="https://gist.github.com/Chienweichih/3a3982b318dc2fe3ea766edde18fb793.js"></script>
 
 ---
 

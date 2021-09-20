@@ -34,7 +34,9 @@ share: true
 
 在 Project 的最上層目錄執行
 
-> `ctags -R`
+``` shell
+$ ctags -R
+```
 
 就會產生索引用的 tags 檔。  
 用 `<C-]>` 跳到游標下 keyword 的定義， `<C-t>` 跳回查詢之前的位置
@@ -69,23 +71,31 @@ share: true
 這是一個 vim plugin 的 package manager。  
 設定好 [vimrc][vimrc]，後續的安裝和更新只要在 Vim 裡輸入一個指令：
 
-> `:PackUpdate`
+``` vim
+:PackUpdate
+```
 
 安裝 minpac 的方法：
 
-> `mkdir -p ~/.vim/pack/minpac/opt`  
-> `cd ~/.vim/pack/minpac/opt`  
-> `git clone https://github.com/k-takata/minpac.git`
+``` shell
+$ mkdir -p ~/.vim/pack/minpac/opt
+$ cd ~/.vim/pack/minpac/opt
+$ git clone https://github.com/k-takata/minpac.git
+```
 
 ## fzf ##
 
 用來搜尋檔名，不用打完整檔名的 fuzzy 搜尋。安裝方法：
 
-> `~/.vim/pack/minpac/start/fzf/install --bin`
+``` shell
+$ ~/.vim/pack/minpac/start/fzf/install --bin
+```
 
 但是，我現在用在 Cygwin 有個 bug。解決方法很簡單，在 fzf.vim 第 587 行後面加上：
 
-> `&& ($TERM !=# 'xterm')`
+``` vim
+&& ($TERM !=# 'xterm')
+```
 
 ## taglist ##
 
@@ -97,7 +107,9 @@ share: true
 還會幫你把搜尋結果放到 Quickfix list  
 搭配前面安裝的 rg，只要執行：
 
-> `:Grepper`
+``` vim
+:Grepper
+```
 
 就能超快速的搜尋整個專案
 

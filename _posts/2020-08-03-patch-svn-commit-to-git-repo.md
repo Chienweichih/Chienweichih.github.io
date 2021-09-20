@@ -21,22 +21,30 @@ ref: [https://yodalee.blogspot.com/2017/03/git-patch.html](https://yodalee.blogs
 
 1. 把想搬的 commit 生成 patch
 
-    > `git format-patch -1 <commit> # one commit`  
-    > `git format-patch -n <commit> # <n> commit`  
-    > `git format-patch <commit>    # commit to head`
+    ``` shell
+    $ git format-patch -1 <commit> # one commit
+    $ git format-patch -n <commit> # <n> commit
+    $ git format-patch <commit>    # commit to head
+    ```
 
 2. 把所有 .patch 檔搬到想要 apply 的 repo，然後執行：
 
-    > `git am *.patch`
+    ``` shell
+    $ git am *.patch
+    ```
 
 3. 如果碰到衝突就會停下來，想要處理的話就要：
 
-    > `git apply --reject xxx.patch`
+    ``` shell
+    $ git apply --reject xxx.patch
+    ```
 
 4. 把 .rej 檔的地方修改好後：
 
-    > `git add -u # only adds currently tracked files`  
-    > `git am --continue`
+    ``` shell
+    $ git add -u # only adds currently tracked files
+    $ git am --continue
+    ```
 
 最後就完成了
 
@@ -50,11 +58,15 @@ ref: [https://yodalee.blogspot.com/2017/03/git-patch.html](https://yodalee.blogs
 
 1. 從 svn 生成 patch
 
-    > `svn diff http://your-svn-site/... -r <revision - 1>:<revision>`
+    ``` shell
+    $ svn diff http://your-svn-site/... -r <revision - 1>:<revision>
+    ```
 
 2. 可以把前面的結果導出到檔案，然後在 git repo 執行 patch command
 
-    > `patch --binary --no-backup-if-mismatch -p0`
+    ``` shell
+    $ patch --binary --no-backup-if-mismatch -p0
+    ```
 
 可以參考下面這個範例
 

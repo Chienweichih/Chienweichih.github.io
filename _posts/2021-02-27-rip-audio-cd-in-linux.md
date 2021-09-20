@@ -17,14 +17,16 @@ share: true
 
 大部分的程式，都能用 apt-get 安裝，有：
 
-> `sudo apt-get install abcde`  
-> `sudo apt-get install lame`  
-> `sudo apt-get install flac`  
-> `sudo apt-get install wavpack`  
-> `sudo apt-get install twolame`  
-> `sudo apt-get install ffmpeg`  
-> `sudo apt-get install opus-tools      # for opusenc`  
-> `sudo apt-get install musepack-tools  # for mpcenc`
+``` shell
+$ sudo apt-get install abcde
+$ sudo apt-get install lame
+$ sudo apt-get install flac
+$ sudo apt-get install wavpack
+$ sudo apt-get install twolame
+$ sudo apt-get install ffmpeg
+$ sudo apt-get install opus-tools      # for opusenc
+$ sudo apt-get install musepack-tools  # for mpcenc
+```
 
 剩下這三個在我的 Debian 系統上找不到能夠直接安裝的，所以我就從 source build 了
 
@@ -38,14 +40,18 @@ share: true
 
     build 的方法是：
 
-    > `autoreconf -i`  
-    > `./configure --prefix=$HOME/usr && make && make install`  
-    > ($HOME/usr 是我個人使用的安裝路徑)
+    ``` shell
+    $ autoreconf -i
+    $ ./configure --prefix=$HOME/usr && make && make install
+    $ # ($HOME/usr 是我個人使用的安裝路徑)
+    ```
 
     補充一個設定 environment variables 的小知識，在 build 需要用到 library 前：
 
-    > `export CPPFLAGS='-I/.../usr/include/'`  
-    > `export LDFLAGS='-L/.../usr/lib/'`
+    ``` shell
+    $ export CPPFLAGS='-I/.../usr/include/'
+    $ export LDFLAGS='-L/.../usr/lib/'
+    ```
 
     這樣設定才能讓需要用到這個 library 的程式找到他的路徑
 
@@ -55,8 +61,10 @@ share: true
 
     build 的方法是：
 
-    > `cmake .`  
-    > `make DESTDIR=$HOME install`
+    ``` shell
+    $ cmake .
+    $ make DESTDIR=$HOME install
+    ```
 
     最後 build 出的結果就會跑到 $HOME/usr/local/bin 的目錄
 
@@ -66,7 +74,9 @@ share: true
 
     build 的方法是：
 
-    > `./configure --prefix=$HOME/usr && make && make install`
+    ``` shell
+    $ ./configure --prefix=$HOME/usr && make && make install
+    ```
 
 安裝的步驟終於大功告成
 
@@ -78,7 +88,9 @@ share: true
 
 譬如說想要擷取出 flac 的格式，就使用這個指令：
 
-> `abcde -o flac`
+``` shell
+$ abcde -o flac
+```
 
 這樣就開始執行了。最後完成的結果會放到 $HOME/Music/flac，可以開心聽音樂了!
 
@@ -90,7 +102,9 @@ share: true
 
 安裝的方式是
 
-> `sudo apt-get install kid3`
+``` shell
+$ sudo apt-get install kid3
+```
 
 ---
 

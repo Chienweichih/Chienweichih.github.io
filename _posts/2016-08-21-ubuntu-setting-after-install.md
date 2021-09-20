@@ -23,8 +23,10 @@ Chrome是個好用的瀏覽器，我的紀錄跟安裝的應用程式只要登�
 
 首先，要啟用"universe" repository，然後：
 
-> `sudo apt-get update`  
-> `sudo apt-get install libgconf2-4 libnss3-1d libxss1`
+``` shell
+$ sudo apt-get update
+$ sudo apt-get install libgconf2-4 libnss3-1d libxss1
+```
 
 就可以去Chrome的網站下載安裝google-chrome-stable了
 
@@ -36,12 +38,16 @@ reference: [http://it.livekn.com/2016/05/ubuntu-1604-ibus.html][ibus]
 
 Ubuntu的中文輸入法我還是比較習慣用ibus，在16.04預設是沒有ibus的，所以就來把ibus裝起來。
 
-> `sudo apt-get install ibus-zhuyin #注音輸入法`  
-> `sudo apt-get install ibus-table-cangjie-big #倉頡輸入法`
+``` shell
+$ sudo apt-get install ibus-zhuyin #注音輸入法
+$ sudo apt-get install ibus-table-cangjie-big #倉頡輸入法
+```
 
 然後重新啟動ibus
 
-> `ibus restart`
+``` shell
+$ ibus restart
+```
 
 最後去設定，文字輸入的地方把ibus加進來就OK了！
 
@@ -55,12 +61,16 @@ reference: [https://ubuntuforums.org/showthread.php?t=2218111&p=12998553#post129
 
 首先，安裝 numlockx
 
-> `sudo apt-get update`  
-> `sudo apt-get install numlockx`
+``` shell
+$ sudo apt-get update
+$ sudo apt-get install numlockx
+```
 
 然後修改 `/usr/share/lightdm/lightdm.conf.d/50-unity-greeter.conf`，最後一行加上
 
-> `greeter-setup-script=/usr/bin/numlockx on`
+``` shell
+$ greeter-setup-script=/usr/bin/numlockx on
+```
 
 重開機就OK了！
 
@@ -74,11 +84,15 @@ LaTeX是個很棒的東西，我都拿它來做投影片，所以電腦裡也安
 
 首先先安裝texlive-full，這個會安裝超久的（下載的東西有3GB那麼多吧）
 
-> `sudo apt-get install texlive-full`
+``` shell
+$ sudo apt-get install texlive-full
+```
 
 安裝完後，裝texmaker編輯器
 
-> `sudo apt-get install texmaker`
+``` shell
+$ sudo apt-get install texmaker
+```
 
 這樣就可以開始做投影片囉！
 
@@ -92,24 +106,34 @@ reference: [https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=306796
 
 首先先確認目前使用的語系
 
-> `echo $LANG`
+``` shell
+$ echo $LANG
+```
 
 然後將語系變更為英文
 
-> `export LANG=en_US`
+``` shell
+$ export LANG=en_US
+```
 
 執行這個更改資料夾名稱
 
-> `xdg-user-dirs-gtk-update`
+``` shell
+$ xdg-user-dirs-gtk-update
+```
 
 再把語系改回原本使用的語系
 
-> `export LANG=最前面記的`  
-> `#我的是 zh_TW.UTF-8`
+``` shell
+$ export LANG=最前面記的
+$ # 我的是 zh_TW.UTF-8
+```
 
 最後再執行一次更名，但是這次選擇保留舊名稱
 
-> `xdg-user-dirs-gtk-update`
+``` shell
+$ xdg-user-dirs-gtk-update
+```
 
 這樣就OK了！
 
@@ -121,8 +145,10 @@ reference: [https://www.howtoinstall.co/en/ubuntu/xenial/jekyll][jekyll]
 
 上一篇文章有貼一篇安裝 Jekyll的方法，不過這次查到更簡單、更方便的方法，紀錄一下
 
-> `sudo apt-get update`  
-> `sudo apt-get install jekyll`
+``` shell
+$ sudo apt-get update
+$ sudo apt-get install jekyll
+```
 
 就這樣！天阿，超方便！我之前安裝那麼久到底在幹麻
 
@@ -138,9 +164,11 @@ reference: [https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup]
 
 使用Git前先設定一下初始的設定
 
-> `git config --global user.name "yourname"`  
-> `git config --global user.email youremail@example.com`  
-> `git config --global core.editor vim`
+``` shell
+$ git config --global user.name "yourname"
+$ git config --global user.email youremail@example.com
+$ git config --global core.editor vim
+```
 
 我主要就設定這三項
 
@@ -154,26 +182,36 @@ reference: [https://help.github.com/articles/generating-an-ssh-key/][github-ssh]
 
 先查一下有沒有存在的SSH key
 
-> `ls -al ~/.ssh`
+``` shell
+$ ls -al ~/.ssh
+```
 
 剛安裝好應該是沒有吧，來建立一個新的key吧
 
-> `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+``` shell
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
 
 然後他問你key要存哪裡，直接按Enter。然後輸入你要的密碼
 
 再來確認ssh-agent有沒有啟動
 
-> `eval "$(ssh-agent -s)"`
+``` shell
+$ eval "$(ssh-agent -s)"
+```
 
 加入剛剛新增的key
 
-> `ssh-add ~/.ssh/id_rsa`
+``` shell
+$ ssh-add ~/.ssh/id_rsa
+```
 
 最後是將這個key加到Github的設定，先把key複製起來
 
-> `sudo apt-get install xclip`  
-> `xclip -sel clip < ~/.ssh/id_rsa.pub`
+``` shell
+$ sudo apt-get install xclip
+$ xclip -sel clip < ~/.ssh/id_rsa.pub
+```
 
 最後去Github的設定找New SSH key的地方，將key加入就OK了！
 

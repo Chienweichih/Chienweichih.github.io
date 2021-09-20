@@ -41,10 +41,10 @@ Mermaid 的語法也請參考網站介紹
 我自己的用法是使用 Python 來開一個 http server:
 
 ``` shell
-# Python 3:
+$ # Python 3:
 $ python3 -m http.server
 
-# Python 2:
+$ # Python 2:
 $ python -m SimpleHTTPServer
 ```
 

@@ -19,8 +19,10 @@ share: true
 
 在Ubuntu上，我用的是 [Okular][Okular] 這個軟體，可以從官網下載source來編譯，或是懶懶的用apt安裝：
 
-> `sudo apt-get update`  
-> `sudo apt-get install okular`  
+``` shell
+$ sudo apt-get update
+$ sudo apt-get install okular
+```
 
 然後Windows上，我用PDF-XChange Viewer。而PDF-XChange Viewer從[阿榮福利味下載的免安裝版][PDF-XChange Viewer]對翻譯軟體的使用比較支援，官方網站下載安裝的就有點不行，我也不太懂為什麼。
 
@@ -33,12 +35,16 @@ share: true
 
 在Ubuntu，使用Xcalib，這一次也是用apt安裝：
 
-> `sudo apt-get update`  
-> `sudo apt-get install xcalib`  
+``` shell
+$ sudo apt-get update
+$ sudo apt-get install xcalib
+```
 
 然後在終端機執行：
 
-> `xcalib -i -a`
+``` shell
+$ xcalib -i -a
+```
 
 螢幕顏色就黑白反轉了！ 很棒吧
 
@@ -59,9 +65,11 @@ share: true
 
 Ubuntu 上安裝的方式也是用apt來安裝:
 
-> `sudo apt-get update`  
-> `sudo apt-get install goldendict`  
-> `sudo apt-get install goldendict-wordnet`  
+``` shell
+$ sudo apt-get update
+$ sudo apt-get install goldendict
+$ sudo apt-get install goldendict-wordnet
+```
 
 在Windows上，從他官網的下載頁下載:  
 [http://goldendict.org/download.php][GD_download]  

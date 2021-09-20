@@ -19,7 +19,9 @@ share: true
 
 原來 Git 會記錄一套特別的檔案權限，使用這個 command 可以列出檔案的權限：
 
-> `git ls-files --stage`
+``` shell
+$ git ls-files --stage
+```
 
 * 100644 是一般的檔案，這就是讓我不能修改及編譯的元兇
 * 100755 是可執行的檔案
@@ -28,7 +30,9 @@ share: true
 
 那就這麼做：
 
-> `git add --chmod=+x .`
+``` shell
+$ git add --chmod=+x .
+```
 
 最後再 commit 就完成了！  
 (如果資料夾還是不能新增檔案，那就把檔案全部複製到另一個資料夾，新的資料夾就沒有問題了)
