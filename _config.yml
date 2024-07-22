@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Chienweichih
+name: 一個工程師的筆記
 
 # Short bio or description (displayed in the header)
-description: SSD Firmware Engineer
+description: 主要關注 Free and open-source software
 
 #
 # Flags below are optional
@@ -51,14 +51,14 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2024 chienweichih
+footer-text: Copyright &copy; 2024 chienweichih
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: chienweichih
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-80308840-1
+google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
