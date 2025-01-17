@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ## Employment
 
-`2019 -   `
+`2019 - 2025`
 __[YEESTOR Microelectronics Co., Ltd][yeestor]__ SSD 韌體工程師
 
 `2016 - 2019` 
@@ -21,13 +21,15 @@ __國立臺灣海洋大學__ 資訊工程學系 __學士__
 
 ## Experience
 
-我是海洋大學資工系畢業，師範大學資工所畢業，大學和研究所都是研究 Security 相關的題目，有興趣的話可以看一下後面的附件。
+就學期間學習了多種程式語言基礎、資料結構演算法、計算機架構組織，後來對資訊安全深感興趣，進修密碼學相關課程，大學和研究所的專題研究都是和 Security 相關的題目。
 
-畢業之後到廣明光電上班，寫 FTL 相關的 FW，就是 L2P、Block 的管理、GC、Snapshot、POR 和 SPOR 的上電恢復流程處理、Trim、Sanitize 等 admin cmd。在廣明做了 3 年，後來因為部門倒了所以就換公司了，在廣明最後的半年還有去接觸了一下消費性電子的 FW，做了 Type-C 相關的產品。
+大學專題是用 Java 實作紙本文件的簽章認證系統，除了密碼學的簽章加密、還用到了 QR-Code 的編碼解碼功能實作。研究所論文題目為《利用備份與投票技術實作雲端儲存之即時行為違反證明技術》，這是透過類似 Blockchain 的概念將文件系統做出經 Service provider 認證的簽章，用於雲端儲存系統的 Real-time auditing.
 
-再來去了大心電子，公司後來被併購所以現在是得一微電子。剛到這家公司的時候他們請我去支援做 TCG 的 FW，當時我們就兩個人從無到有的把 TCG Pyrite 和 TCG OPAL 的功能實做出來，是有通過 Ulink Drive Master 認證的。後來就是做 FTL、Read、Write、Throttle 相關的 FW。有做過阿里開的 10核 CPU enterprise 的 FW，有做過 dramless FTL 的 FW，有做過工控的 FW，目前的公司經歷 5 年半，做 SSD FW 的經歷已經超過 8 年。
+畢業後找到的第一份工作就和 Storage 相關，在廣明光電開始 FTL FW 的任務。當時是用 Marvell 的 Controller，主要是 "Eldora"，維護 L2P、Block 的管理、GC、Snapshot、POR 和 SPOR 的上電恢復流程處理、Trim、Sanitize 等 admin cmd 的 FW，新增功能修改 bug 等等。後來公司因業務調整把 SSD 部門解散，趁這個機會我換到了消費性電子的部門，在這裡做了 Type-C 產品的 FW （PD協定）、MFC 寫的 MPTool 等功能。
 
-我熱愛學習，精通 Git 和 Vim 工具的使用，熟悉 linux cmd line，會寫 C、Python、Java、Shell Script，專長如前面所說的是 SSD 的 FTL、Read、Write、TCG、Security。
+後來來到了大心電子，也就是現在的得一微電子。當時公司想要做 TCG OPAL 的功能，於是請我去支援，我和另一位資深的同事從無到有的把 TCG Pyrite 和 TCG OPAL 的功能實作出來，把相關的 Spec 都看了，後來的成果是有通過 Ulink Drive Master 認證的。接著就是 System FW 的相關 FW 處理、新增功能、處理各類問題。有經歷過阿里主導的一個 10 cores CPU 的 enterprise FW 的開發，前期主要是在仿真系統上做出了讀寫、GC、斷電上電正常的 System FW。後來也去支援了 dramless 的案子、工控產品的案子，發了很多 FW 版本，解決客訴問題等等。
+
+從畢業到現在主要都是 SSD FW 的經歷，8 年半的工作經歷我學習到各式各樣的經驗。除了工作中需要的 System FW、TCG OPAL 等專業外，我也自己學習精通 Git 和 Vim 等等工具，熟悉 Linux command line 的使用。對技術的學習始終抱持著一顆充滿興趣的心，任勞任怨的完成一切交辦的任務。
 
 ## Technical skills
 
@@ -48,7 +50,7 @@ __PD Protocol Parser__
 [_https://github.com/Chienweichih/CCGX_PD_Parser_][PD_PARSER]
 {: .right}
 
-將 Cypress CY4500 EZ-PD™ Protocol Analyzer 錄出的 .ccgx files 另存成 csv 格式後，就可以利用這個工具來轉換成很容易閱讀的文件，不用再查詢 Spec 來比對 log 的意思。更重要的功能是，他可以為了不同的 VDM 來擴增不同的實作 (譬如 Display Port 或 HP 等 Vender 的 Alternate mode)。
+將 Cypress CY4500 EZ-PD™ Protocol Analyzer 錄出的 .ccgx files 另存為 csv 格式後，便可以透過這個工具轉換出容易閱讀的文件，不需要再麻煩的查詢 Spec 來比對 log 的意思。還可以替不同的 VDM 實作他們所需要的功能 (例如 Display Port，或是 HP 等等 Vender 的 Alternate mode)。
 
 (這是一個用 Python 完成的 Project)
 {: .right}
@@ -61,7 +63,7 @@ __PL2303 GPIO 工具__
 [_https://github.com/Chienweichih/PL2303_GPIO_][PL2303_GPIO]
 {: .right}
 
-用 PL2303 USB to GPIO 晶片實作出的產測工具。控制 GPIO 開關 Type C cable 的 CC1, CC2 及 VBus，來做出 Type C cable 正反插的動作。這樣的工具不僅能夠省下人工插拔的動作，還能在接上電腦後自動判斷出接上的硬碟的名稱等等資訊，自動化很多需要判斷的項目。
+使用 PL2303 USB to GPIO 晶片實作出的產測工具。透過對 GPIO 的操作，控制 Type-C cable 的 CC1, CC2 及 VBus 開關，來做出 Type-C cable 正反插的動作。這個工具不僅能夠省下人力來插拔 DUT，也能在接上電腦後自動判斷出硬碟的名稱等等資訊，用於自動化處理相關流程。
 
 (這是由官網提供的 [MFC Project][oneping] 改寫的一個 command line tool)
 {: .right}
@@ -96,7 +98,7 @@ __Link: [https://hdl.handle.net/11296/8ub4ku][masters_thesis]__
 [_https://github.com/Chienweichih/Voting-CAP_][Voting-CAP]
 {: .right}
 
-這是我的碩士論文，以 Java 實作 Socket 來模擬雲端儲存系統的環境。透過 Java 的 API 實作基於密碼學的通訊協定。使用者的客戶端不需要保留任何檔案的雜湊值，就能達到 proof of violation 和 real-time auditing。最終就是用這個專案得到各種實驗的數據，以證明本篇論文的可行性。
+這是我的碩士論文，以 Java 實作 Socket 來模擬雲端儲存系統的環境。透過 Java 的 API 實作基於密碼學的通訊協定。使用者的客戶端不需要保留任何檔案的雜湊值，就能達到 proof of violation 和 real-time auditing。最終利用這個專案得到各種實驗的數據，以證明本篇論文的可行性。
 
 (這是一個用 Java 完成的 Project)
 {: .right}
@@ -109,7 +111,7 @@ __二維條碼文件證書認證系統__
 [_https://github.com/Chienweichih/MyBachelorProject_][MyBachelorProject]
 {: .right}
 
-這是我的大學畢業專題，目標是讓紙本文件也能夠利用密碼學的方法來保證資料的完整性。所以我們在 Server 端保存文件內容的數位簽章，使用者端的應用程式可以驗證文件內容是否和 Server 上的資料相符。為了增加紙本文件和數位資料的連結，我們使用 QR-Code 的技術，將 QR-Code 條碼印刷在紙本文件上。使用者端掃描條碼後便能輕鬆地完成認證。
+這是我的大學畢業專題。紙本文件可能會有被偽造修改的風險，如果能透過密碼學的簽章，就可以保護資料的完整性。實作的方法是在 Server 保存文件內容的數位簽章，使用者透過手機的應用程式便能驗證文件內容是否和 Server 上的資料相符。為了讓紙本文件和數位資料能夠產生關聯，我們使用 QR-Code 的技術，將 QR-Code 條碼印刷在紙本文件上。使用者掃描條碼後便能快速的完成認證。
 
 (這是一個結合 Java 實作後端程式及 Android 介面的一個 Project)
 {: .right}
