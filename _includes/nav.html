@@ -7,13 +7,15 @@
 
       <div class="site-info">
         <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-        <p class="site-description">{{ site.description }}</p>
+        <p class="site-description"><a href="{{ site.baseurl }}/images/MyGO_01__6840.jpg" target="_blank">{{ site.description }}</a></p>
       </div>
 
       <nav>
         {% for nav in site.navigation %}
         {% if nav.url contains 'http://' or nav.url contains 'https://' %}
         <a href="{{ nav.url }}">{{ nav.name }}</a>
+        {% elsif nav.target %}
+        <a href="{{ site.baseurl }}{{ nav.url }}" target="{{ nav.target }}">{{ nav.name }}</a>
         {% else %}
         <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.name }}</a>
         {% endif %}

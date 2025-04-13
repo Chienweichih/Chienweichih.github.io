@@ -8,15 +8,21 @@ Mobile: 0000-000-000 | E-mail: temp@mail.com
 
 ## Employment
 
-`Mar. 2019 —      2025`
-__[YEESTOR Microelectronics Co., Ltd][yeestor]__ SSD 韌體工程師
+`Mar. 2025 — present`
+__宇瞻科技股份有限公司__ SSD 韌體工程師
 
-`Aug. 2016 — Feb. 2019` 
-__[Quanta Storage Inc.][qsitw]__ SSD 韌體工程師
+`Apr. 2020 — Feb. 2025`
+__香港商得一微電子香港有限公司__ SSD 韌體工程師
+
+`Mar. 2019 — Apr. 2020`
+__大心電子股份有限公司__ SSD 韌體工程師
+
+`Aug. 2016 — Feb. 2019`
+__廣明光電股份有限公司__ SSD 韌體工程師
 
 ## Education
 
-`Sep. 2014 — June 2016`
+`Sep. 2014 — Jun. 2016`
 __國立臺灣師範大學__ 資訊工程學系 __碩士__
 
 `Sep. 2010 — Jan. 2014`
@@ -59,8 +65,6 @@ __國立臺灣海洋大學__ 資訊工程學系 __學士__
 
 
 
-[yeestor]: https://www.104.com.tw/company/1a2x6bkpa1
-[qsitw]: https://www.104.com.tw/company/7qfuky8
 [PD_PARSER]: https://github.com/Chienweichih/CCGX_PD_Parser
 [PL2303_GPIO]: https://github.com/Chienweichih/PL2303_GPIO
 [masters_thesis]: https://hdl.handle.net/11296/8ub4ku

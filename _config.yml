@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: 一個工程師的筆記
+name: 石頭筆記
 
 # Short bio or description (displayed in the header)
-description: 主要關注 Free and open-source software
+description: 假作真時真作假，無為有處有為無。
 
 #
 # Flags below are optional
@@ -28,6 +28,9 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
+  - name: (G)I-DLE
+    url: /g_i_dle
+    target: _blank
 
 # Pagination
 paginate: 5
