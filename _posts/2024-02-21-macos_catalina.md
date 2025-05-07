@@ -2,7 +2,7 @@
 layout: post
 title: "MacBook 初體驗"
 date: 2024-2-21 00:25:00 +0800
-tags: [mac]
+tags: [system]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Tinker Board Debian OS 應用整理"
 date: 2020-12-10 15:30:00 +0800
-tags: [Tinker Board, Debian]
+tags: [system]
 comments: true
 share: true
 ---

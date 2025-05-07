@@ -2,7 +2,7 @@
 layout: post
 title: "在 Linux 上擷取音樂 CD"
 date: 2021-2-27 23:35:00 +0800
-tags: [abcde, kid3]
+tags: [tools]
 comments: true
 share: true
 ---

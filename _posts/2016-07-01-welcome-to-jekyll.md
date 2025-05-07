@@ -3,7 +3,7 @@ layout: post
 title: "第一篇文章!"
 description: "Jekyll 初體驗"
 date: 2016-07-01 00:00:16 +0800
-tags: [web, jekyll]
+tags: [webpage]
 comments: true
 share: true
 ---

@@ -28,8 +28,8 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: (G)I-DLE
-    url: /g_i_dle
+  - name: i-dle
+    url: /i_dle
     target: _blank
 
 # Pagination

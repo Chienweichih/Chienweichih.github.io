@@ -2,7 +2,7 @@
 layout: post
 title: "用 Markdown 做電子書"
 date: 2022-3-3 0:0:00 +0800
-tags: [Markdown]
+tags: [markdown]
 comments: true
 share: true
 ---

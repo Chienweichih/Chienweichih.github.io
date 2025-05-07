@@ -2,7 +2,7 @@
 layout: post
 title: "用 Markdown 寫文件"
 date: 2021-9-12 00:25:00 +0800
-tags: [Markdown]
+tags: [markdown]
 comments: true
 share: true
 ---

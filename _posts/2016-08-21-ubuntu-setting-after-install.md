@@ -3,7 +3,7 @@ layout: post
 title: "Ubuntu 系統安裝後的一些設定"
 description: "其實不限於 Ubuntu, 有些 Linux 都通用"
 date: 2016-08-21 22:10:16 +0800
-tags: [Ubuntu]
+tags: [tools]
 comments: true
 share: true
 ---

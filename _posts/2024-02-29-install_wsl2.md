@@ -2,7 +2,7 @@
 layout: post
 title: "安裝 WSL2 超簡單"
 date: 2024-2-29 00:00:00 +0800
-tags: [Windows, Ubuntu]
+tags: [system]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "救命 我的檔案被 Git 修改權限"
 date: 2020-6-1 23:40:00 +0800
-tags: [git, permission, access denied, cygwin]
+tags: [git]
 comments: true
 share: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "從 svn 搬 commit 到 git repo"
 date: 2020-08-03 17:30:00 +0800
-tags: [git, svn]
+tags: [git]
 comments: true
 share: true
 ---

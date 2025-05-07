@@ -2,7 +2,7 @@
 layout: post
 title: "我的 F-Droid 和 Termux 程式整理"
 date: 2021-8-15 00:40:00 +0800
-tags: [FOSS, Android]
+tags: [tools]
 comments: true
 share: true
 ---

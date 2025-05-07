@@ -2,7 +2,7 @@
 layout: post
 title: "yangcha 的 Image Viewer"
 date: 2023-8-8 13:40:00 +0800
-tags: [html]
+tags: [webpage]
 comments: true
 share: true
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Windows, Ubuntu 系統上的文件閱讀三寶"
 description: "閱讀 PDF 文件的好幫手"
 date: 2016-09-04 00:15:00 +0800
-tags: [Ubuntu, Windows]
+tags: [tools]
 comments: true
 share: true
 ---
