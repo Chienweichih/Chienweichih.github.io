@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+locale: "zh-TW"
+title: "石頭筆記"
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+name: "chienweichih"
+description: "假作真時真作假，無為有處有為無。"
+url: "https://chienweichih.github.io"
+twitter_username: #username
+github_username: Chienweichih
 minimal_mistakes_skin: default
 search: true
+search_full_content: true
 
 # Build settings
 markdown: kramdown
@@ -31,7 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Taipei # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -58,34 +59,38 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Chienweichih"
+  avatar : "https://avatars3.githubusercontent.com/u/4618300"
+  bio    : "[假作真時真作假，無為有處有為無。](/assets/images/MyGO_01__6840.jpg)"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://chienweichih.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Chienweichih"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Chienweichih"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/chienweichih"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url: "https://instagram.com/"
+  since: "2016"
 
 defaults:
   # _posts
@@ -95,8 +100,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: # true
+      comments: # true
       share: true
       related: true
   # _pages
