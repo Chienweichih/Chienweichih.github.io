@@ -1,72 +1,59 @@
 ---
 permalink: /about/
-title: "Bruce Chien"
+title: About
 ---
-Mobile: 0000-000-000 | E-mail: temp@mail.com
-{: style="text-align: center;"}
 
-## Employment
+# Bruce Chien
+Senior SSD Firmware Engineer
 
-`Mar. 2025 — present`
-__宇瞻科技股份有限公司__ SSD 韌體工程師
+📧 email@example.com ｜ 📍 Taipei, Taiwan ｜ 📞 0000-000-000
 
-`Apr. 2020 — Feb. 2025`
-__香港商得一微電子香港有限公司__ SSD 韌體工程師
-
-`Mar. 2019 — Apr. 2020`
-__大心電子股份有限公司__ SSD 韌體工程師
-
-`Aug. 2016 — Feb. 2019`
-__廣明光電股份有限公司__ SSD 韌體工程師
-
-## Education
-
-`Sep. 2014 — Jun. 2016`
-__國立臺灣師範大學__ 資訊工程學系 __碩士__
-
-`Sep. 2010 — Jan. 2014`
-__國立臺灣海洋大學__ 資訊工程學系 __學士__
+## About
+10 年 SSD 韌體開發經驗，橫跨消費級與企業級產品線，專精 Flash Translation Layer (FTL)、TCG Opal 安全功能實作，以及 NVMe/PCIe 協定除錯。
 
 ## Experience
 
-* 大學學習密碼學相關課程，專題和碩士論文都是 Security 相關的題目
-* 在廣明光電擔任韌體工程師的職務，開始負責 Marvell Eldora 的 FTL FW
-* 實作 Erase Fail Markbad 的流程處理
-* 在廣明光電消費性電子部門，負責 Type-C 產品 Cypress PD controller 的 FW
-* 2019年到大心電子擔任高級工程師的職務，2021年升職為資深工程師，與得一微電子合併
-* TCG OPAL 的任務，從無到有開始實作，大約一年完成，可以通過 Ulink DM 的測試認證
-* 實作 dram base 的 memory remap 功能，修改 Register 控制流程，可以支援到 8GB
-* 在阿里設計的 10 Cores Controller，實作流控、WL、PLP 斷電上電的 System FW
-* 合作實作 dramless 三級 L2P Table 的功能，能支援到 2TB 容量
-* 在得一工控產品的案子，實作客戶想要的 vendor cmd，打包版本，解決客訴問題
+### 專案副主任 — [宇瞻科技]
+*Mar. 2025 – Present*
+- ...
 
-<div style="break-after:page"></div>
+### 資深工程師 — [得一微電子]（原 [大心電子]，2020年併購）
+*Apr. 2020 – Feb. 2025*
+- 在阿里設計的 10 Cores Controller，實作流控、WL、PLP 斷電上電的 System FW
+- 合作實作 dramless 三級 L2P Table 的功能，能支援到 2TB 容量
+- 在得一工控產品的案子，實作客戶想要的 vendor cmd，打包版本，解決客訴問題
 
-## Technical skills
+### 高級工程師 — [大心電子]
+*Mar. 2019 – Apr. 2020*
+- 與資深工程師協作，從無到有完整實作 TCG Opal 安全功能，負責 `Next`、`Authenticate`、`Activate` 等核心 method 邏輯開發
+- 依照 spec 規範實作 Single User Mode、Block SID 等 feature set，包含對應 table 與 method 開發
+- 使用 ULINK DriveMaster 進行功能驗證測試，並針對測試中發現的問題進行除錯與修正
+- 完成之韌體通過驗證並交付客戶
+- 實作 dram base 的 memory remap 功能，修改 Register 控制流程，可以支援到 8GB
 
-* C
-* SSD: FTL, TCG
-* Tool: Vim, Git
-* Linux command line
-* Python, Java, Shell Script
-* Cryptography
-* Embedded System (ARM)
-* USB Type-C, Power Delivery
+### 工程師 — [廣明光電]
+*Aug. 2016 – Feb. 2019*
+- 負責 Marvell Eldora 的 FTL FW
+- 實作 Erase Fail Markbad 的流程處理
+- 在消費性電子部門，負責 Type-C 產品 Cypress PD controller 的 FW
+
+## Skills
+- **語言**：C, Python, Shell Script
+- **領域知識**：FTL, TCG Opal
+- **協定**：NVMe, PCIe, SATA, USB Type-C, Power Delivery
+- **工具**：JTAG, ULINK DriveMaster, Git, Linux CLI, Vim
 
 ## Projects
+- **[Sedutil 測試腳本](https://github.com/Chienweichih/sedutil)** - 修改 sedutil 程式和編寫測試腳本
+- **[TCG OPAL Parser](https://github.com/Chienweichih/TCG_OPAL_SimParser)** - This project is a parser for TCG Opal packets 
+- **[PD Protocol Parser](https://github.com/Chienweichih/CCGX_PD_Parser)** — 將 Analyzer 錄出的檔案轉換為容易閱讀的文件，不需要再麻煩的查詢 Spec 來比對 log 的意思
+- **[PL2303 GPIO 工具](https://github.com/Chienweichih/PL2303_GPIO)** — 透過對 GPIO 的操作，控制 Type-C cable 的 CC1, CC2 及 VBus 開關，來做出 Type-C cable 正反插的動作
+- **[利用備份與投票技術實作雲端儲存之即時行為違反證明技術](https://github.com/Chienweichih/Voting-CAP)** — 我的碩士論文的實作，以 Java 實作 Socket 來模擬雲端儲存系統的環境，透過 Java 的 API 實作基於密碼學的通訊協定
+- **[熱門景點的臉書打卡數與天氣指數的關係之研究](https://github.com/Chienweichih/TPWeather)** — 利用 Facebook 的 API 取得景點的打卡數量、利用 Python 撰寫爬蟲程式抓取台北市國小的氣象資料
+- **[二維條碼文件證書認證系統](https://github.com/Chienweichih/MyBachelorProject)** — 我的大學畢業專題的實作，在 Server 保存文件內容的數位簽章，透過手機的驗證文件內容
 
-1. __PD Protocol Parser__ [_https://github.com/Chienweichih/CCGX_PD_Parser_][PD_PARSER]
-2. __PL2303 GPIO 工具__ [_https://github.com/Chienweichih/PL2303_GPIO_][PL2303_GPIO]
-3. __利用備份與投票技術實作雲端儲存之即時行為違反證明技術__ [https://hdl.handle.net/11296/8ub4ku][masters_thesis]
-4. __碩士論文實作__ [_https://github.com/Chienweichih/Voting-CAP_][Voting-CAP]
-5. __熱門景點的臉書打卡數與天氣指數的關係之研究__ [https://github.com/Chienweichih/TPWeather][TPWeather]
-6. __二維條碼文件證書認證系統__ [_https://github.com/Chienweichih/MyBachelorProject_][MyBachelorProject]
+## Education
+國立臺灣師範大學 資訊工程碩士，2016  
+國立臺灣海洋大學 資訊工程學士，2014
 
-
-
-[PD_PARSER]: https://github.com/Chienweichih/CCGX_PD_Parser
-[PL2303_GPIO]: https://github.com/Chienweichih/PL2303_GPIO
-[masters_thesis]: https://hdl.handle.net/11296/8ub4ku
-[Voting-CAP]: https://github.com/Chienweichih/Voting-CAP
-[TPWeather]: https://github.com/Chienweichih/TPWeather
-[MyBachelorProject]: https://github.com/Chienweichih/MyBachelorProject
+<div style="break-after:page"></div>
